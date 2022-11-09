@@ -23,6 +23,7 @@ public class Harshad {
       return n % sum == 0;
    }
    
+   // Recursive solution
    public static boolean isHarshad(int n, int temp, int sum) {
       if (temp == 0) {
          return n % sum == 0;
